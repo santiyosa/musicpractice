@@ -27,10 +27,8 @@ public class Band {
     @Column(name = "genero", length = 45)
     private String genero;
 
-
     public Band() {
     }
-    
 
     public Long getIdbanda() {
         return this.idbanda;
